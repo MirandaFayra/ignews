@@ -1,14 +1,17 @@
+import { Logo } from '../../images/imageComponet/LogoComponent'
+import { SigInButton } from '../SigninButton'
 import styles from './styles.module.scss'
 
 export function Header (){
     return(
             <header className={styles.headerContainer}>
                 <div className={styles.headerContent}>
-                    <img src="/images/logo.svg" alt="logo do ig.news"></img>
+                    <Logo/>
                     <nav>
-                        <a>Home</a>
+                        <a className={styles.active}>Home</a>
                         <a>Posts</a>
                     </nav>
+                    <SigInButton/>
                 </div>
             </header>
     )
