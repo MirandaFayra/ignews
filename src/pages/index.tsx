@@ -17,8 +17,8 @@ export default function Home() {
                     <p>Get acess to all publications <br/>
                     <span>for $9.90 month</span>
                     </p>
+                    <GirlCoding/>
                 </section>
-                <GirlCoding/>
             </main>
         </>
     )
